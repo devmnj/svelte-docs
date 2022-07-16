@@ -1,7 +1,6 @@
 ---
-layout: article
-section: how to
-under: root
+section: how-to
+under: root 
 ---
 <script>
 import Colorblast from "../../components/colorblast.svelte"

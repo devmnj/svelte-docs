@@ -28,7 +28,7 @@
 	<div class="flex bg-purple-50  ">
 		
 		<div class="w-80 bg-gray-800 pt-3">
-			<h2 class="text-2xl font-semibold text-center text-gray-800 dark:text-white">{brand}</h2>
+		<a href="/">	<h2 class="text-2xl font-semibold text-center text-gray-800 dark:text-white">{brand}</h2></a>
 
 			<div class="flex flex-col items-center mt-6 -mx-2">
 				<!-- <img

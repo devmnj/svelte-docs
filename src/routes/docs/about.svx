@@ -1,5 +1,4 @@
 ---
-layout: article
 section: About
 under: root
 ---

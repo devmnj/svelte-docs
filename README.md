@@ -30,7 +30,15 @@
 - [🎉 Acknowledgments <a name = "acknowledgments"></a>](#-acknowledgments-)
 
 # 🚂 How this app works ?  <a name = "how"></a>
-There is `docs` folder under the `src/routes/`, this is where need to place the .md / .svx files, which is treated as page in your app. 
+There is `docs` folder under the `src/routes/`, this is where need to place the .svx files (markdown), which is treated as page in the app. 
+
+Each of the markdown document should have the following fields 
+```
+---
+section: Intro
+under: root 
+---
+```
 
 ## 🖊️ Filename and  url <a name="url"/>
 The `file name` should not include `white space`,  files name used for url.Since url doesn't allow spaces, we have to use something like, `installation-guide` where whitespace required.

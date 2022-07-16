@@ -15,5 +15,5 @@
 	href={path}>
  
 
-	<span class="mx-4 font-medium">{label}</span>
+	<span class="capitalize mx-4 font-medium">{label}</span>
 </a>

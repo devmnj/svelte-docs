@@ -19,7 +19,7 @@ export async function get() {
 			return {
 				section: metadata.section,
 				under: metadata.under,
-				slug: basename(filename, ".svx") // Generate a slug we can link to
+				slug:  basename(filename, ".svx") // Generate a slug we can link to
 			}
 		}
 	)
