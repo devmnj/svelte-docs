@@ -1,0 +1,8 @@
+---
+layout: article
+section: About
+under: root
+---
+
+I will always use the `article` layout!
+>  Hello world

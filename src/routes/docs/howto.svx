@@ -1,0 +1,14 @@
+---
+layout: article
+section: how to
+under: root
+---
+<script>
+import Colorblast from "../../components/colorblast.svelte"
+</script>
+
+
+<Colorblast></Colorblast>
+
+> How to do everything in Linux
+

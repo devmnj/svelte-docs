@@ -1,0 +1,57 @@
+<div class="body">
+    <div class="error-number">
+  <svg style="width: 600px; height: 200px" alignment-baseline="middle">
+                  <defs>
+                      <clipPath id="clip2">
+                          <path d="M 0 0 L 600 0 L 600 80 L 0 80 L 0 0 L 0 125 L 600 125 L 600 200 L 0 200 Z"></path>
+                      </clipPath>
+                  </defs>
+                  <text x="300" y="190" style="width: 600px; height: 200px" text-anchor="middle" font-family="Lato" font-weight="700" font-size="250" fill="#505458" clip-path="url(#clip2)">4<tspan fill="#35b8e0">0</tspan>4</text>
+              </svg>
+  <div class="title">PAGE NOT FOUND</div>
+  </div>
+  Oh no, looks like shit hit the fan.
+  </div>
+
+
+<style>
+
+html, body {
+  height: 100vh;
+  background: #EAF2F9;
+}
+
+.body {
+      width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 0;
+    float: none;
+    text-align: center;
+  font-family: verdana;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.error-number {
+  position: relative;
+}
+
+.title {
+  text-transform: uppercase;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+  </style>
