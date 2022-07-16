@@ -4,7 +4,7 @@ export const docs = writable([]);
 const fetchDocs = async () => {
     try {
        // const url=`https://my-json-server.typicode.com/devmnj/mockdb/docs`;
-        const url = `http://localhost:3000/api/docs.json`;
+        const url = `/api/docs.json`;
         const res = await fetch(url);
         const data = await res.json();
          console.log('...'+ JSON.stringify(data));
