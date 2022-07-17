@@ -14,7 +14,7 @@
 
 <p align="center">Svelte Docs  
 
->  This is Svelte app template for generating documentation site using Markdown files. 
+>  This is Svelte app template for generating documentation site using Markdown files. Have a look at the [demo](http://svelte-docs.vercel.app/)
     <br> 
 </p>
 
@@ -50,6 +50,8 @@ For developing and make changes to this project, you need to install [Nodejs](ht
 
 Fork the repository or download the project to a local machine. Then `run yarn install` for dependency setup ( from the root directory).
 
+> This application uses a `.env` file which store the site configuaration, this repo has `.env.production` which is used to configure the settings in production mode. You have to create a `.env` file for local development with same content. 
+ 
 Now let's start the development server and modify:
 
 ```bash
@@ -73,6 +75,10 @@ npm run dev -- --open
 - [@devmnj](https://github.com/devmnj) - Idea & Initial work
 
 ## 🏖️ How to deploy the app <a name="deploy"></a>
+  For deployment , try [Vercel], it is so easy to deploy a JAM stacky app with Vercel. 
+  In this application uses a `.env` file which store the site configuaration, which is not exported to git hub, instead I have `.env.production` which is used to configure the settings.
+  I also removed .production file from the gitignore , so that they are uploaded to my repository.
+    
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 
 - The work is impossible without MDSVEX and Svelte.
