@@ -75,9 +75,10 @@ npm run dev -- --open
 - [@devmnj](https://github.com/devmnj) - Idea & Initial work
 
 ## 🏖️ How to deploy the app <a name="deploy"></a>
-  For deployment , try [Vercel], it is so easy to deploy a JAM stacky app with Vercel. 
-  In this application uses a `.env` file which store the site configuaration, which is not exported to git hub, instead I have `.env.production` which is used to configure the settings.
-  I also removed .production file from the gitignore , so that they are uploaded to my repository.
+  For deployment , try [Vercel](https://vercel.com/), it is so easy to deploy a JAM stack app with Vercel. 
+  In this application uses a `.env` file which store the site configurations, which is not exported to git hub, instead I have `.env.production` which is used to configure the settings @ production.
+  
+  I also removed `.env.production` file from the gitignore , so that they are uploaded to my repository.
     
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 
